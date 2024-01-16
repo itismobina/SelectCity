@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "KalamehBold";
+    src: url("../public/fonts/KalamehFaNum-Bold.ttf");
+}
+
+@font-face {
+    font-family: "KalamehLight";
+    src: url("../public/fonts/KalamehFaNum-Light.ttf");
+}
+
+@font-face {
+    font-family: "KalamehMedium";
+    src: url("../public/fonts/KalamehFaNum-Medium.ttf");
+}
+
+@font-face {
+    font-family: "KalamehRegular";
+    src: url("../public/fonts/KalamehFaNum-Regular.ttf");
+}
+
+html, body, #root {
+    height: 100%;
+    direction: rtl;
+}
+
+.KalamehLight {
+    font-family: KalamehRegular, serif !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: KalamehMedium, serif;
+    scroll-behavior: smooth;
+    direction: rtl;
+}
